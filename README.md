@@ -1,2 +1,2 @@
 # minesweeper
-Skoluppgift minesweeper ned python pygame
+Skoluppgift minesweeper med python pygame
