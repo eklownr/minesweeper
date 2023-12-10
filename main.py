@@ -1,7 +1,6 @@
 import pygame, random
-
-# icecream till testutskrifter:
 from icecream import ic
+# icecream till testutskrifter:
 
 
 pygame.init()
