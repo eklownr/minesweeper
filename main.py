@@ -72,6 +72,7 @@ def set_bomb_neighbour_value():
                 # Sätt cellens värde till antalet närliggande bomber
                 cells[x][y] = bomb_count
 
+
 def draw_grid_and_value(screen):
     # Rita rutnätet och cellernas innehåll
     for x in range(GRID_SIZE):
