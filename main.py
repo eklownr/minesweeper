@@ -1,5 +1,5 @@
 import pygame, random
-from icecream import ic
+# from icecream import ic
 # icecream till testutskrifter:
 
 
