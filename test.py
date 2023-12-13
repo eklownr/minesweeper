@@ -100,7 +100,7 @@ def draw_grid_and_value(screen):
                 pygame.draw.rect(screen, GRAY, rect_hide)
 
 
-def get_event(screen):
+def get_event():
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
@@ -118,7 +118,7 @@ def get_event(screen):
             x = pos[0] // CELL_SIZE
             y = pos[1] // CELL_SIZE
 
-            # en redan skapad flagga, tas bort
+            # En redan skapad flagga, tas bort
             if BOMB_FLAG[0] == x and BOMB_FLAG[1] == y and BOMB_FLAG[2] == True:
                 BOMB_FLAG[2] = False
             else: 
@@ -141,7 +141,7 @@ def main():
     while True:
         screen.fill(DARK_BLUE)
 
-        get_event(screen)
+        get_event()
         draw_grid_and_value(screen)
 
         # TODO: skapa funktion som kollar en inbäddad lista med alla flaggor med positioner
